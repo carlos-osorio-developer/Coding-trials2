@@ -3,10 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
+<body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+        <section id="top-nav">
+            <div class="image">
+                <img src="https://s3.amazonaws.com/freecodecamp/original_trombones.png" id="header-img">
+                <nav id="nav-bar">
+                    <a id="nav-1" class="nav-link" href="#intro">Features</a>
+                    <a id="nav-1" class="nav-link" href="#video">How it works</a>
+                    <a id="nav-1" class="nav-link" href="#products">Pricing</a>
+                </nav>
+            </div>
+        </section>
+    </header>
 
+    <div id="intro">
+        <h2>Handcrafted, home-made masterpieces</h2>
+    </div>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input id="email" name="email" type="email" placeholder="Enter your email here" onfocus="this.value=''">
+        <br></br>
+        <input id="submit" type="submit" value="Get Started">
+    </form>
+    <br>
+    <br>
+    <div class="video1">
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <section id="products" class="product-list">
+        <div class="item">
+            <h2>TENOR TROMBONE</h2>
+            <h3>$600</h2>
+            <ol class="list">
+                <ul>Lorem ipsum.</ul>
+                <ul>Lorem ipsum.</ul>
+                <ul>Lorem ipsum dolor.</ul>
+                <ul>Lorem ipsum.</ul>
+            </ol>
+            <a id="product-button">SELECT</a>
+        </div>
+        <div class="item">
+            <h2>BASS TROMBONE</h2>
+            <h3>$900</h2>
+            <ol class="list">
+                <ul>Lorem ipsum.</ul>
+                <ul>Lorem ipsum.</ul>
+                <ul>Lorem ipsum dolor.</ul>
+                <ul>Lorem ipsum.</ul>
+            </ol>
+            <a id="product-button">SELECT</a>
+        </div>
+        <div class="item">
+            <h2>VALVE TROMBONE</h2>
+            <h3>$1200</h2>
+            <ol class="list">
+                <ul>Plays similar to a Trumpet</ul>
+                <ul>Great for Jazz Bands</ul>
+                <ul>Lorem ipsum dolor.</ul>
+                <ul>Lorem ipsum.</ul>
+            </ol>
+            <a id="product-button">SELECT</a>
+        </div>
+    </section>
+
+</body>
 
 
 </html>
